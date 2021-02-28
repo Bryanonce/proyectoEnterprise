@@ -1,0 +1,31 @@
+.footer-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row{
+    width: 50%;
+    min-height: 200px;
+    padding: 0 20px;
+}
+
+.update{
+    padding: 10px;
+    width: 40%;
+    right: 0;
+    margin-left: 20px;
+    border: none;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.update-active{
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+.update-active:hover{
+    background-color: rgb(170, 62, 43);
+}

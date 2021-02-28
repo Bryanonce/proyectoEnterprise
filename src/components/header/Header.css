@@ -1,0 +1,56 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    padding: 10px 0;
+    left: 0;
+}
+
+.busqueda{
+    min-width: 60%;
+    display: flex;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    height: 100%;
+    background-image: url('../../assets/search-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    width: 30px;
+    left: 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.input-animate::before{
+    transform: scale(0.8,0.8) translate(-20px,-25px);
+}
+
+.busqueda::before{
+    background-color: white;
+    padding: 5px;
+    content: 'Buscar Usuario';
+    position: absolute;
+    align-self: center;
+    font-size: 15px;
+    margin-left: 50px;
+    color: rgba(0,0,0,0.5);
+    cursor: text;
+    transition: all 0.25s;
+}
+
+.input-control{
+    min-width: 100%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
